@@ -58,8 +58,8 @@ int main(){
     printf("Informe o número de Pontos Turísticos da Cidade: ");
     scanf("%d", &numPt_turistico1);
 
-    float densipop1 = (float) populacao1 / area1;
-    float pibpercap1 = (float) pib1 / populacao1;
+    float densipop1 = (float) populacao1 / area1; //Calcula a Densidade Populacional
+    float pibpercap1 = (float) pib1 / populacao1; //Calcula o PIB per Capita
 
     printf("\n"); //pula 1 linha
 
@@ -96,8 +96,8 @@ int main(){
     printf("Informe o número de Pontos Turísticos da Cidade: ");
     scanf("%d", &numPt_turistico2);
 
-    float densipop2 = (float) populacao2 / area2;
-    float pibpercap2 = (float) pib2 / populacao2;
+    float densipop2 = (float) populacao2 / area2; //Calcula a Densidade Populacional
+    float pibpercap2 = (float) pib2 / populacao2; //Calcula o PIB per Capita
 
     printf("\n"); //pula 1 linha
 
